@@ -1,0 +1,12 @@
+route:
+  receiver: "alerta"
+receivers:
+- name: "alerta"
+  webhook_configs:
+  - url: 'https://webhook.site/4ce183f2-7098-4510-9049-0129d1a1198b'
+    send_resolved: true
+  - url: 'http://localhost:8000/api/webhook'
+    http_config: 
+      basic_auth:
+        username: alertmanager
+        password: verysecretpass

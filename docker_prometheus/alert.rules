@@ -1,0 +1,11 @@
+groups:
+- name: example
+  rules:
+  - alert: container_down
+    expr: absent(container_memory_usage_bytes{name="redis"})
+    for: 10s
+    labels:
+     severity: critical
+    annotations:
+      summary: "Instance down"
+      description: "Job has been down for more than 2 minutes."

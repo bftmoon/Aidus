@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "643975665748",
+    "firebase_url": "https://aidus-91e72.firebaseio.com",
+    "project_id": "aidus-91e72",
+    "storage_bucket": "aidus-91e72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643975665748:android:5bc1a78804f7febad8f5c1",
+        "android_client_info": {
+          "package_name": "u.noneed.aidus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643975665748-j256st2im6hq9rtie5stjl6tjo4monfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCizryUWQcTUA1FaFP8ob49mayzmtoUM4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643975665748-j256st2im6hq9rtie5stjl6tjo4monfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
